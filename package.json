@@ -1,0 +1,16 @@
+{
+  "name": "lesson1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd ./public && live-server --port=3000 --wait=1000 --host=localhost",
+    "demo": "cd ./demo && live-server --port=3000 --wait=1000 --verbose --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
